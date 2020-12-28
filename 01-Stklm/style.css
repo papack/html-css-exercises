@@ -14,5 +14,6 @@ body {
   font-size: 1.6rem;
   background-color: green;
   font-family: "Kanit", sans-serif;
+  text-shadow: white 0px 0px 1px;
   color: white;
 }
