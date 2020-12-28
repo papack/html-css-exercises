@@ -21,3 +21,14 @@ body {
   text-shadow: white 0px 0px 1px;
   color: white;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
