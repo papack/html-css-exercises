@@ -12,4 +12,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  background-color: green;
+  font-family: "Kanit", sans-serif;
+  color: white;
 }
