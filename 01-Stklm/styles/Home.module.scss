@@ -1,35 +1,11 @@
 /* Base HMTL and reset*/
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 1.6rem;
-  background: url("./img/Rev-img-3.jpg");
+.container {
+  background: url("/Rev-img-3.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
   width: 100vw;
-  font-family: "Kanit", sans-serif;
-  text-shadow: white 0px 0px 1px;
-  color: white;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: white;
 }
 
 /* 
@@ -38,14 +14,14 @@ a:hover {
 *
 */
 
-header nav ul {
+.navFlexBox {
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
 }
 
-header nav ul li {
+.navFlexItems {
   font-size: 4.2rem;
   margin: 2.5rem 5rem;
 }
@@ -84,7 +60,7 @@ header nav ul li {
   margin-top: 2rem;
   text-transform: uppercase;
   border-bottom: 0.5rem solid white;
-  width: 10.5rem;
+  width: 12.5rem;
 }
 
 .hero a:hover {
