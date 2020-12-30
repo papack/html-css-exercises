@@ -67,3 +67,37 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+/*
+*
+* Footer
+*
+*/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  bottom: 5rem;
+  position: absolute;
+  left: 5rem;
+  right: 5rem;
+}
+
+.contactLink a {
+  font-size: 5rem;
+}
+
+.footer > div {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact li {
+  margin-left: 8rem;
+  margin-bottom: 0.5rem;
+  list-style-type: none;
+}
