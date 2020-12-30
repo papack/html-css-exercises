@@ -1,6 +1,8 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.scss";
 
+import Header from "../components/Header";
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -13,21 +15,7 @@ export default function Home() {
         <link rel="icon" href="/Favicon.png" />
       </Head>
 
-      <header>
-        <nav>
-          <ul className={styles.navFlexBox}>
-            <li className={styles.navFlexItems}>
-              <a href="#">Stklm</a>
-            </li>
-            <li className={styles.navFlexItems}>
-              <a href="#">About</a>
-            </li>
-            <li className={styles.navFlexItems}>
-              <a href="#">Work</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <Header />
 
       <section className={styles.hero}>
         <ul>
