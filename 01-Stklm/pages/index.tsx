@@ -41,11 +41,11 @@ export default function Home() {
         <a>Discover All</a>
       </section>
 
-      <footer>
-        <div>
+      <footer className={styles.footer}>
+        <div className={styles.contactLink}>
           <a href="#">Contact</a>
         </div>
-        <div>
+        <div className={styles.contact}>
           <ul>
             <li>Business enquires</li>
             <li>hello@stockholm.studio</li>
