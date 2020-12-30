@@ -40,6 +40,30 @@ export default function Home() {
         </p>
         <a>Discover All</a>
       </section>
+
+      <footer>
+        <div>
+          <a href="#">Contact</a>
+        </div>
+        <div>
+          <ul>
+            <li>Business enquires</li>
+            <li>hello@stockholm.studio</li>
+            <li>+46 8 555 1916</li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">Twitter</a>
+            </li>
+            <li>
+              <a href="#">Instagram</a>
+            </li>
+            <li>
+              <a href="#">Facebook</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
   );
 }
